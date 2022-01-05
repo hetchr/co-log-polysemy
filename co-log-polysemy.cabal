@@ -86,7 +86,7 @@ library
   exposed-modules:     Colog.Polysemy
                            Colog.Polysemy.Effect
 
-  build-depends:       co-log-core ^>= 0.3.0.0
+  build-depends:       co-log-core >= 0.3.0.0 && < 0.5
                      , polysemy >= 1.2.0.0 && < 1.8
 
 executable play-colog-poly
